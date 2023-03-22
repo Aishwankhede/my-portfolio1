@@ -1,0 +1,119 @@
+/* ******* */
+/* common */
+/* ******* */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Playfair Display', serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    opacity: 0.9;
+  }
+  a:active {
+    opacity: 1;
+  }
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+    /* background: red; */
+    
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* ******* */
+  /* header */
+  /* ******* */
+  header {
+    background: #eee;
+    padding: 5px 0;
+  }
+  header img {
+    width: 30px;
+    border-radius: 20%;
+    border: 1px solid black;
+  }
+  header nav a {
+    margin-left: 30px;
+  }
+  header nav a i {
+    margin-right: 5px;
+  }
+
+  
+    
+  
+  /* ******* */
+  /* About page */
+  /* ******* */
+  .about-page {
+    padding: 100px 0;
+  }
+  .about-page h1 {
+    font-weight: 800;
+    margin-bottom: 40px;
+  }
+
+  /* ******* */
+  /* Card page */
+  /* ******* */
+
+  .card-first{
+    
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;  
+    padding: 10px 10px 10px 10px;
+    background-color: lightslategray;  
+    
+  }
+  
+  .card-deck{
+    display: flex; 
+     
+    
+  }
+  
+  .card{
+    width: 28%;
+    height: auto;
+    margin: auto;
+    background-color:navajowhite;
+    color: brown; 
+    padding: 10px 10px; 
+    border-radius: 12px;
+    font-size: large;
+    text-shadow: 1px 0.5px;
+    border: 1px solid black;
+    
+  }
+  .card :hover{
+    opacity: 0.9;
+    color: blue;
+   
+  }
+
+
+  /* ******* */
+  /* footer */
+  /* ******* */
+  footer {
+    background: #eee;
+    padding: 30px 0;
+    text-align: center;
+    background-color:darkred;
+    color: bisque;
+  
+  }
+  
+  
