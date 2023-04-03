@@ -9,6 +9,12 @@
   body {
     font-family: 'Playfair Display', serif;
   }
+
+  .aish-primary{
+    color:crimson;
+     text-shadow: 1px 1px;
+
+  }
   a {
     
     color:palevioletred;
@@ -48,7 +54,7 @@
     border: 1px solid black;
   }
   header nav a {
-    margin-left: 30px;
+    margin-left: 10px;
   }
   header nav a i {
     margin-right: 5px;
@@ -77,21 +83,23 @@
     border: 1px solid black;
     display: flex;
     flex-wrap: wrap;  
-    padding: 10px 10px 10px 10px;
-    background-color:#FFF8DC;  
+    padding: 10px 10px 10px 20px;
+    background-color:#FFF8DC; 
+   
+     
     
     
   }
   
   .card-deck{
     display: flex; 
-     
+  
     
   }
   
   .card{
     width: 28%;
-    height: auto;
+    height: 300px;
     margin: auto;
     background-color:#F08080;
     color:black; 
@@ -127,9 +135,60 @@
     background: #eee;
     padding: 30px 0;
     text-align: center;
-    background-color:darkred;
+    background-color:grey;
     color: bisque;
   
   }
+
+
+  /* ***************************************************************************** 
+                 mobile responsive
+   ***************************************************************************** */
   
   
+  @media only screen and (max-width: 600px) {
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 0 5px;
+      /* background: red; */
+      
+    }
+    .aish-primary{
+      color:crimson;
+       text-shadow: 1px 1px;
+       font-size: 20px;
+       margin-left: 20px;
+       
+    }
+    header {
+      background: #eee;
+      padding: 2px 0;
+    }
+    header img {
+      width: 15px;
+      border-radius: 50%;
+      border: 1px solid black;
+    }
+    header nav a {
+      margin-left: 30px;
+    }
+    header nav a i {
+      margin-right: 5px;
+    }
+
+
+    .card-title{
+      color: white;
+      text-shadow: black;
+      font-family: math;
+      font-size: 20px;
+    }
+
+    .card-text{
+      font-size: 15px;
+    }
+    .github-primary{
+      font-size: 13px;
+    }
+  }
